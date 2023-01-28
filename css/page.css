@@ -1,0 +1,11 @@
+/* page select */
+.p-select {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.p-select-table {
+	min-width: 30rem;
+	max-width: 90%;
+}
