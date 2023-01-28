@@ -1,0 +1,14 @@
+.l-header {
+	padding: 2rem;
+	text-align: center;
+}
+
+.l-footer {
+	text-align: center;
+	padding: 4rem;
+}
+
+.l-main {
+	padding-top: 4rem;
+	padding-bottom: 6rem;
+}
