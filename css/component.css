@@ -1,0 +1,8 @@
+.c-btn-back {
+	background-color: var(--c-main);
+	color: var(--c-base);
+	font-weight: bold;
+	display: inline-block;
+	padding: 0.8rem 1.2rem;
+	border-radius: 0.8rem;
+}

@@ -39,6 +39,9 @@ try {
         ?>
       </tbody>
     </table>
+    <div class="p-select__btn-back">
+      <a href="./index.php" class="c-btn-back">トップへ戻る</a>
+    </div>
   </div>
 </main>
 
