@@ -9,6 +9,7 @@
   <!-- style -->
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/layouts.css">
+  <link rel="stylesheet" href="./css/component.css">
   <link rel="stylesheet" href="./css/page.css">
 </head>
 

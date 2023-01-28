@@ -17,28 +17,34 @@ try {
 <?php require_once(__DIR__ . '/layouts/header.php'); ?>
 
 <main class="l-main">
-  <div class="p-select">
-    <table class="p-select-table">
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>氏名</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- データベースから取得してきたuser情報をテーブル列として表示 -->
-        <?php
-        foreach ($users as $user) {
-          echo "
+  <div class="l-main__inner">
+    <div class="p-select">
+      <h2 class="p-select__title">Selectページ</h2>
+      <table class="p-select-table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>氏名</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- データベースから取得してきたuser情報をテーブル列として表示 -->
+          <?php
+          foreach ($users as $user) {
+            echo "
       <tr>
         <td>{$user['id']}</td>
         <td>{$user['name']}</td>
       </tr>
       ";
-        }
-        ?>
-      </tbody>
-    </table>
+          }
+          ?>
+        </tbody>
+      </table>
+      <div class="p-select__btn-back">
+        <a href="./index.php" class="c-btn-back">トップへ戻る</a>
+      </div>
+    </div>
   </div>
 </main>
 
