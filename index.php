@@ -14,6 +14,8 @@ try {
 
 <?php require_once(__DIR__ . '/layouts/header.php'); ?>
 
-<main class="p-index"></main>
+<main class="l-main">
+  <div class="p-index"></div>
+</main>
 
 <?php require_once(__DIR__ . '/layouts/footer.php'); ?>
