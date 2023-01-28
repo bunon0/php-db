@@ -52,9 +52,14 @@
 	justify-content: center;
 }
 
+.p-select__title {
+	text-align: center;
+}
+
 .p-select-table {
 	min-width: 30rem;
 	max-width: 90%;
+	margin-top: 4rem;
 }
 
 .p-select__btn-back {
