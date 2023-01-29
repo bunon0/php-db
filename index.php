@@ -1,15 +1,3 @@
-<?php
-$db_user =  getenv('DB_USERNAME');
-$db_pass = getenv('DB_PASSWORD');
-
-try {
-  $dbh = new PDO('mysql:localhost;dbname=php_db', $db_user, $db_pass);
-  $dbh = null;
-} catch (PDOException $e) {
-  exit('DB接続に失敗しました。' . $e->getMessage());
-}
-?>
-
 <?php require_once(__DIR__ . '/layouts/header.php'); ?>
 
 <main class="l-main">
@@ -32,7 +20,7 @@ try {
         <div class="p-top-article__card">
           <h3 class="p-top-article__title">WHERE句でデータを検索する</h3>
           <div class="p-top-article__link">
-            <a href="./insert.php" class="p-top-article__link-inline">Link Page</a>
+            <a href="./where.php" class="p-top-article__link-inline">Link Page</a>
           </div>
         </div>
       </article>
