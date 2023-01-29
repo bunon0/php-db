@@ -38,20 +38,3 @@ a:hover {
 	opacity: 0.7;
 	transition: 0.3s;
 }
-
-/* table */
-table {
-	border-collapse: collapse;
-	table-layout: fixed;
-}
-
-th,
-td {
-	border-bottom: solid 0.1rem var(--c-main);
-	padding: 1.5rem;
-	text-align: center;
-}
-
-th {
-	border-width: 0.3rem;
-}

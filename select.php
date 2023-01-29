@@ -20,27 +20,29 @@ try {
   <div class="l-main__inner">
     <div class="p-select">
       <h2 class="p-select__title">Selectページ</h2>
-      <table class="p-select-table">
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>氏名</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- データベースから取得してきたuser情報をテーブル列として表示 -->
-          <?php
-          foreach ($users as $user) {
-            echo "
-      <tr>
-        <td>{$user['id']}</td>
-        <td>{$user['name']}</td>
-      </tr>
-      ";
-          }
-          ?>
-        </tbody>
-      </table>
+      <div class="p-select__table">
+        <table class="c-table01">
+          <thead class="c-table01__thead">
+            <tr class="c-table01__row">
+              <th class="c-table01__th">ID</th>
+              <th class="c-table01__th">氏名</th>
+            </tr>
+          </thead>
+          <tbody class="c-table01__tbody">
+            <!-- データベースから取得してきたuser情報をテーブル列として表示 -->
+            <?php
+            foreach ($users as $user) {
+              echo "
+                <tr class='c-table01__row'>
+                  <td class='c-table01__td'>{$user['id']}</td>
+                  <td class='c-table01__td'>{$user['name']}</td>
+                </tr>
+              ";
+            }
+            ?>
+          </tbody>
+        </table>
+      </div>
       <div class="p-select__btn-back">
         <a href="./index.php" class="c-btn-back">トップへ戻る</a>
       </div>

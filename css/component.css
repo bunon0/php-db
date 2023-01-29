@@ -52,3 +52,22 @@
 	border-radius: 0.8rem;
 	margin-top: 4rem;
 }
+
+/* table */
+.c-table01 {
+	border-collapse: collapse;
+	table-layout: fixed;
+	max-width: 90%;
+	min-width: 30rem;
+}
+
+.c-table01__th,
+.c-table01__td {
+	border-bottom: solid 0.1rem var(--c-main);
+	padding: 1.5rem;
+	text-align: center;
+}
+
+.c-table01__th {
+	border-width: 0.3rem;
+}
