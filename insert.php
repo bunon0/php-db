@@ -46,29 +46,31 @@ if (isset($_POST['submit'])) {
     <div class="p-insert">
       <h2 class="p-insert__title">ユーザー登録</h2>
       <p class="p-insert__title-aside">ユーザー情報を入力してください。</p>
-      <form class="c-form01" action="./insert.php" method="post">
-        <div class="c-form01__part">
-          <label class="c-form01__part-label" for="user_name">名前<span class="c-form01__part-required">必須</span></label>
-          <input class="c-form01__part-input" id="user_name" type="text" name="user_name" placeholder="山田 太郎" maxlength="60" required>
-        </div>
-        <div class="c-form01__part">
-          <label class="c-form01__part-label" for="user_furigana">フリガナ<span class="c-form01__part-required">必須</span></label>
-          <input class="c-form01__part-input" id="user_furigana" type="text" name="user_furigana" placeholder="やまだ たろう" maxlength="60" required>
-        </div>
-        <div class="c-form01__part">
-          <label class="c-form01__part-label" for="user_email">メールアドレス<span class="c-form01__part-required">必須</span></label>
-          <input class="c-form01__part-input" id="user_email" type="email" name="user_email" placeholder="tarou@gmail.com" maxlength="255" required>
-        </div>
-        <div class="c-form01__part">
-          <label class="c-form01__part-label" for="user_age">年齢</label>
-          <input class="c-form01__part-input" id="user_age" type="number" name="user_age" placeholder="20" min=0 max=100>
-        </div>
-        <div class="c-form01__part">
-          <label class="c-form01__part-label" for="user_address">住所</label>
-          <input class="c-form01__part-input" id="user_address" type="text" name="user_address" placeholder="東京都" maxlength="255">
-        </div>
-        <button class="c-form01__submit" type="submit" name="submit" value="register">登録する</button>
-      </form>
+      <div class="p-insert__form">
+        <form class="c-form01" action="./insert.php" method="post">
+          <div class="c-form01__part">
+            <label class="c-form01__part-label" for="user_name">名前<span class="c-form01__part-required">必須</span></label>
+            <input class="c-form01__part-input" id="user_name" type="text" name="user_name" placeholder="山田 太郎" maxlength="60" required>
+          </div>
+          <div class="c-form01__part">
+            <label class="c-form01__part-label" for="user_furigana">フリガナ<span class="c-form01__part-required">必須</span></label>
+            <input class="c-form01__part-input" id="user_furigana" type="text" name="user_furigana" placeholder="やまだ たろう" maxlength="60" required>
+          </div>
+          <div class="c-form01__part">
+            <label class="c-form01__part-label" for="user_email">メールアドレス<span class="c-form01__part-required">必須</span></label>
+            <input class="c-form01__part-input" id="user_email" type="email" name="user_email" placeholder="tarou@gmail.com" maxlength="255" required>
+          </div>
+          <div class="c-form01__part">
+            <label class="c-form01__part-label" for="user_age">年齢</label>
+            <input class="c-form01__part-input" id="user_age" type="number" name="user_age" placeholder="20" min=0 max=100>
+          </div>
+          <div class="c-form01__part">
+            <label class="c-form01__part-label" for="user_address">住所</label>
+            <input class="c-form01__part-input" id="user_address" type="text" name="user_address" placeholder="東京都" maxlength="255">
+          </div>
+          <button class="c-form01__submit" type="submit" name="submit" value="register">登録する</button>
+        </form>
+      </div>
       <div class="p-insert__btn-back">
         <a href="./index.php" class="c-btn-back">トップへ戻る</a>
       </div>
