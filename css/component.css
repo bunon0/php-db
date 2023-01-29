@@ -6,3 +6,68 @@
 	padding: 0.8rem 1.2rem;
 	border-radius: 0.8rem;
 }
+
+/* form */
+.c-form01 {
+	width: 90%;
+	max-width: 30rem;
+}
+
+.c-form01__part {
+	display: flex;
+	flex-direction: column;
+}
+.c-form01__part:not(:first-child) {
+	margin-top: 2rem;
+}
+
+.c-form01__part-label {
+	font-weight: bold;
+}
+
+.c-form01__part-required {
+	display: inline-block;
+	padding: 0.2rem;
+	border-radius: 0.4rem;
+	font-size: 1.2rem;
+	color: var(--c-base);
+	background-color: var(--c-caution);
+	margin-left: 0.8rem;
+}
+
+.c-form01__part-input {
+	display: inline-block;
+	padding: 0.8rem;
+	width: 100%;
+	margin-top: 0.8rem;
+}
+
+.c-form01__submit {
+	display: block;
+	background-color: var(--c-primary);
+	color: var(--c-base);
+	min-width: 28rem;
+	width: 100%;
+	padding: 1.2rem 0.8rem;
+	border-radius: 0.8rem;
+	margin-top: 4rem;
+}
+
+/* table */
+.c-table01 {
+	border-collapse: collapse;
+	table-layout: fixed;
+	max-width: 90%;
+	min-width: 30rem;
+}
+
+.c-table01__th,
+.c-table01__td {
+	border-bottom: solid 0.1rem var(--c-main);
+	padding: 1.5rem;
+	text-align: center;
+}
+
+.c-table01__th {
+	border-width: 0.3rem;
+}
