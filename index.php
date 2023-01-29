@@ -29,6 +29,12 @@ try {
             <a href="./insert.php" class="p-top-article__link-inline">Link Page</a>
           </div>
         </div>
+        <div class="p-top-article__card">
+          <h3 class="p-top-article__title">WHERE句でデータを検索する</h3>
+          <div class="p-top-article__link">
+            <a href="./insert.php" class="p-top-article__link-inline">Link Page</a>
+          </div>
+        </div>
       </article>
     </div>
   </div>
