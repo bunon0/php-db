@@ -23,6 +23,12 @@
             <a href="./where.php" class="p-top-article__link-inline">Link Page</a>
           </div>
         </div>
+        <div class="p-top-article__card">
+          <h3 class="p-top-article__title">UPDATE文でuserデータを更新する</h3>
+          <div class="p-top-article__link">
+            <a href="./users.php" class="p-top-article__link-inline">Link Page</a>
+          </div>
+        </div>
       </article>
     </div>
   </div>
