@@ -36,6 +36,7 @@ try {
               <th class="c-table01__th">年齢</th>
               <th class="c-table01__th">住所</th>
               <th class="c-table01__th">編集</th>
+              <th class="c-table01__th">削除</th>
             </tr>
           </thead>
           <tbody class="c-table01__tbody">
@@ -52,6 +53,9 @@ try {
                   <td class='c-table01__td'>{$user['address']}</td>
                   <td class='c-table01__td'>
                     <a href='./update.php?id={$user['id']}' class='c-table01__edit'>編集</a>
+                  </td>
+                  <td class='c-table01__td'>
+                    <a href='./delete.php?id={$user['id']}' class='c-table01__delete'>削除</a>
                   </td>
                 </tr>
               ";

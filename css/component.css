@@ -82,7 +82,14 @@
 
 .c-table01__edit {
 	padding: 0.4rem;
-	background-color: var(--c-caution);
+	background-color: var(--c-secondary);
 	color: var(--c-base);
 	border-radius: 0.4rem;
+}
+
+.c-table01__delete {
+	padding: 0.4rem;
+	color: var(--c-base);
+	border-radius: 0.4rem;
+	background-color: var(--c-caution);
 }
