@@ -31,10 +31,12 @@ body {
 	font-size: 1.6rem;
 	background-color: var(--c-base);
 	color: var(--c-main);
+	word-wrap: break-word;
+	overflow-wrap: break-word;
 }
 
 /* link */
 a:hover {
 	opacity: 0.7;
-	transition: 0.3s;
+	transition: 0.5s;
 }
