@@ -15,6 +15,13 @@ try {
   exit('DB接続に失敗しました。' . $e->getMessage());
 }
 
+if (!empty($_GET['delete_count'])) {
+  $get_delete_count = htmlspecialchars($_GET['delete_count'], ENT_QUOTES, 'UTF-8');
+  $delete_count = intval($get_delete_count);
+} else {
+  $delete_count = null;
+}
+
 
 ?>
 
@@ -25,6 +32,10 @@ try {
   <div class="l-main__inner">
     <div class="p-users">
       <h2 class="p-users__title">ユーザー情報一覧</h2>
+      <!-- ユーザー情報が変化した場合メッセージの表示 -->
+      <?php if ($delete_count) {
+        echo "<p class='p-user__message'>ユーザー情報を{$delete_count}件削除しました。</p>";
+      } ?>
       <div class="p-users__table">
         <table class="c-table01">
           <thead class="c-table01__thead">
