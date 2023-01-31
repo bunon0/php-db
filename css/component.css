@@ -9,7 +9,7 @@
 
 /* form */
 .c-form01 {
-	width: 90%;
+	width: 100%;
 	max-width: 30rem;
 }
 
@@ -51,14 +51,21 @@
 	padding: 1.2rem 0.8rem;
 	border-radius: 0.8rem;
 	margin-top: 4rem;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.c-form01__submit:hover {
+	opacity: 0.7;
 }
 
 /* table */
 .c-table01 {
 	border-collapse: collapse;
 	table-layout: fixed;
-	max-width: 90%;
 	min-width: 30rem;
+	white-space: nowrap;
+	margin: 0 auto;
 }
 
 .c-table01__th,
@@ -66,8 +73,16 @@
 	border-bottom: solid 0.1rem var(--c-main);
 	padding: 1.5rem;
 	text-align: center;
+	flex-grow: 0;
 }
 
 .c-table01__th {
 	border-width: 0.3rem;
+}
+
+.c-table01__edit {
+	padding: 0.4rem;
+	background-color: var(--c-caution);
+	color: var(--c-base);
+	border-radius: 0.4rem;
 }

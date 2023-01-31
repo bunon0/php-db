@@ -7,18 +7,20 @@
 
 .p-top__title {
 	text-align: center;
+	margin-bottom: 6rem;
 }
 
 .p-top-article {
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: -2rem;
-	margin-top: 4rem;
+	margin-top: -4rem;
 }
 
 .p-top-article__card {
 	width: calc((100% - 6rem) / 3);
 	margin-left: 2rem;
+	margin-top: 4rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -58,7 +60,8 @@
 }
 
 .p-select__table {
-	max-width: 90%;
+	width: 100%;
+	max-width: 50rem;
 }
 
 .p-select__btn-back {
@@ -93,4 +96,42 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.p-where__table {
+	margin-top: 4rem;
+	max-width: 50rem;
+}
+
+/*
+* users-page
+ */
+.p-users {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow-x: scroll;
+}
+
+.p-users__table {
+	margin-top: 4rem;
+	width: 100%;
+	white-space: initial;
+}
+
+.p-users__btn-back {
+	margin-top: 4rem;
+}
+
+/*
+* update-page
+ */
+.p-update {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.p-update__btn-back {
+	margin-top: 4rem;
 }
