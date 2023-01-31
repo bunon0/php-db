@@ -59,6 +59,7 @@
 	table-layout: fixed;
 	max-width: 90%;
 	min-width: 30rem;
+	overflow: auto;
 }
 
 .c-table01__th,
@@ -66,8 +67,17 @@
 	border-bottom: solid 0.1rem var(--c-main);
 	padding: 1.5rem;
 	text-align: center;
+	flex-grow: 0;
+	white-space: nowrap;
 }
 
 .c-table01__th {
 	border-width: 0.3rem;
+}
+
+.c-table01__edit {
+	padding: 0.4rem;
+	background-color: var(--c-caution);
+	color: var(--c-base);
+	border-radius: 0.4rem;
 }
