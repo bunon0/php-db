@@ -1,9 +1,20 @@
+/* button */
 .c-btn-back {
 	background-color: var(--c-main);
 	color: var(--c-base);
 	font-weight: bold;
 	display: inline-block;
 	padding: 0.8rem 1.2rem;
+	border-radius: 0.8rem;
+}
+
+.c-btn-sort {
+	background-color: var(--c-secondary);
+	color: var(--c-base);
+	font-weight: bold;
+	font-size: max(1.4rem, 14px);
+	display: inline-block;
+	padding: 0.6rem 1rem;
 	border-radius: 0.8rem;
 }
 

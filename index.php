@@ -24,9 +24,15 @@
           </div>
         </div>
         <div class="p-top-article__card">
-          <h3 class="p-top-article__title">UPDATE文でuserデータを更新する</h3>
+          <h3 class="p-top-article__title">userデータの更新と削除</h3>
           <div class="p-top-article__link">
             <a href="./users.php" class="p-top-article__link-inline">Link Page</a>
+          </div>
+        </div>
+        <div class="p-top-article__card">
+          <h3 class="p-top-article__title">userデータを並び替え</h3>
+          <div class="p-top-article__link">
+            <a href="./orderby.php" class="p-top-article__link-inline">Link Page</a>
           </div>
         </div>
       </article>

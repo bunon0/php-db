@@ -135,3 +135,24 @@
 .p-update__btn-back {
 	margin-top: 4rem;
 }
+
+/*
+* orderby-page
+　*/
+.p-orderby {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.p-orderby__btn-wrapper {
+	margin-top: 3rem;
+}
+
+.p-orderby__table {
+	margin-top: 2rem;
+}
+
+.p-orderby__btn-back {
+	margin-top: 4rem;
+}
